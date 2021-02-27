@@ -1,0 +1,23 @@
+button {
+  display: flex;
+  align-items: center;
+  background-color: var(--gray-dark);
+  color: var(--white-off);
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  border: 1px solid var(--white-off);
+  border-radius: 999px;
+  padding: 0 4px 0 16px;
+  box-shadow: 0 0 0 4px var(--gray-light); 
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 0 4px var(--gray-medium);
+  background-color: var(--brand); 
+}
+
+button:hover > svg {
+  transform: translateX(2px);
+ }
