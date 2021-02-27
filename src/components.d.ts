@@ -8,6 +8,7 @@ import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface FitfabButton {
         "label": string;
+        "variant": 'primary' | 'secondary' | 'disabled';
     }
     interface MyComponent {
         /**
@@ -45,6 +46,7 @@ declare global {
 declare namespace LocalJSX {
     interface FitfabButton {
         "label"?: string;
+        "variant"?: 'primary' | 'secondary' | 'disabled';
     }
     interface MyComponent {
         /**
