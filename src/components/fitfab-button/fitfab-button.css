@@ -9,8 +9,9 @@ button {
   padding: 0 4px 0 16px;
   box-shadow: 0 0 0 4px var(--gray-medium); 
   cursor: pointer;
-  margin: 8px;
+  margin: 8px 16px 8px 0;
 }
+
 
 button.primary {
   background-color: var(--brand);
