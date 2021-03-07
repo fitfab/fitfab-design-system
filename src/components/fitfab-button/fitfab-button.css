@@ -4,10 +4,9 @@ button {
   font-size: 1rem;
   font-weight: 100;
   letter-spacing: 1px;
-  border: 1px solid var(--white-off);
+  border: 2px solid var(--white);
   border-radius: 999px;
-  padding: 0 4px 0 16px;
-  box-shadow: 0 0 0 4px var(--gray-medium); 
+  padding: 8px 20px 8px 36px;
   cursor: pointer;
   margin: 8px 16px 8px 0;
 }
@@ -16,30 +15,34 @@ button {
 button.primary {
   background-color: var(--brand);
   color: var(--white-off);
+  box-shadow: 0 0 0 1px var(--brand); 
 }
 button.secondary {
   background-color: var(--white-off);
   color: var(--gray-dark);
-  box-shadow: 0 0 0 4px var(--gray-medium); 
+  box-shadow: 0 0 0 1px var(--gray-medium); 
 }
 button.secondary > svg { 
   stroke: var(--gray-dark)
 }
 button.secondary:hover {
-  background-color: var(--gray-medium); 
-  color: var(--white-off);
+  /* background-color: var(--gray-medium);  */
+  box-shadow: 0 0 0 4px var(--gray-medium);
+  /* color: var(--white-off); */
 }
 button.secondary:hover > svg {
   stroke: var(--white-off);
+  stroke: var(--gray-dark)
 }
 
 button:hover {
-  box-shadow: 0 0 0 4px var(--gray-medium);
-  background-color: var(--gray-medium); 
+  box-shadow: 0 0 0 4px var(--brand);
+  /* background-color: var(--gray-medium);  */
 }
 button > svg {
   stroke: var(--white-off)
 }
 button:hover > svg {
   transform: translateX(2px);
+  
 }

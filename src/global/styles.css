@@ -7,7 +7,7 @@
     --gray-medium: #495057;
     --gray-light: #868e96;
     --white: #fff;
-    --white-off: #f8f9fa;
+    --white-off: #e2e2e2;
   }
 
   * {
@@ -18,7 +18,7 @@
   }
 
   html, body {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     
   }
 

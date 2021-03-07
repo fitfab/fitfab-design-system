@@ -39,17 +39,21 @@ npm run build
 
 To run the unit tests for the components, run:
 
-*Note:* you need to install missing packages
-
 ```bash
 npm test
 ```
 
+
+*Note:* you need to install missing packages fot the test to run.
 ```bash
 npm install --save-dev @types/jest@26.0.20 jest@26.6.3 jest-cli@26.6.3 @types/puppeteer@5.4.2 puppeteer@5.5.0
 ```
 
 Need help? Check out our docs [here](https://stenciljs.com/docs/my-first-component).
+
+## Publishing to npm 
+
+`npm publish --access public`
 
 
 ## Naming Components
